@@ -7,6 +7,7 @@ dnf install -y nginx git awscli
 
 # === 2.- Cretate variables ===
 export S3_BUCKET="mini-amazon-bucket-yahir"
+# modify with the backend DNS or IP
 export IP_BACKEND="10.0.1.162"
 export WEBROOT="/var/www/mini-amazon"
 export NGINX_CONFIG_PATH="/etc/nginx/conf.d"
