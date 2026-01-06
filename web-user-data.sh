@@ -15,8 +15,8 @@ dnf install -y nginx git awscli
 # === 2. Define variables used === 
 
 # NOTE: MUST REPLACE S3_BUCKET IP_BACKEND -> real values
-S3_BUCKET=""
-IP_BACKEND=""
+S3_BUCKET="${s3_bucket}"
+IP_BACKEND="${ip_backend}"
 
 # Do not modidy
 WEBROOT="/var/www/mini-amazon"
